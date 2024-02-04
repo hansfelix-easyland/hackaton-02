@@ -1,15 +1,20 @@
-body{
-    background-color: black;
-}
-.datos{ 
-    align-content: center;
-    color: brown;
 
-}
-
-.titulo{
-    color: blue;
-}
 h1{
     color: blue;
+    text-align: center;
+}
+
+body{
+    text-align: left;
+    text-decoration: solid;
+    width: 1000px;
+    height: 1000px;
+}
+#datos{
+ color: rgb(0, 0, 0);
+ align-items: center;
+}
+fieldset{
+    border-color: red;
+    
 }
