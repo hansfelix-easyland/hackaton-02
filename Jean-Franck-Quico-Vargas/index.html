@@ -14,7 +14,7 @@
         body {
             font-family: Montserrat;
             font-weight: bold;
-            background-image: url(438211.jpg);
+            background-image: url(https://files.pucp.education/puntoedu/wp-content/uploads/2020/04/17221307/CIA.jpg);
             background-size: cover;
         }
 
@@ -24,27 +24,46 @@
         }
 
         .card {
-            opacity: 0.7;
+            opacity: 1;
+        }
+
+        button:focus {
+            outline: none;
         }
     </style>
 </head>
 
 <body>
     <div class="d-flex justify-content-center">
-        <div class="card mx-auto" style="width: 22rem; border: 3px solid;">
+        <div class="card mx-auto" style="width: 22rem; border: 0px none;">
             <img src="Foto01.jpeg" class="card-img-top" alt="Foto del referido">
             <div class="card-body">
                 <h4><b>Jean Franck Quico Vargas</b></h4>
                 <p><b>22 años</b></p>
                 <hr style="border: 2px solid black;">
-                <h5><b>Pasatiempos</b></h5>
-                <ul>
-                    <li>Jugar en la ps5</li>
-                    <li>Cocinar</li>
-                    <li>Leer</li>
-                    <li>Diseñar flowcharts</li>
-                    <li>Ver doramas</li>
-                </ul>
+                <div class="mb-3">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h5><b>Pasatiempos</b></h5>
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Jugar en la ps5</li>
+                            <li>Cocinar</li>
+                            <li>Leer</li>
+                            <li>Diseñar flowcharts</li>
+                            <li>Ver doramas</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
                 <a href="https://www.facebook.com/profile.php?id=100062108795643&mibextid=ZbWKwL"><img class="icono"
                         src="facebook.png" alt=""></a>
                 <a href="https://www.instagram.com/francz.qv?igsh=MWE2bDNhbzdiZXh4Zg=="><img class="icono"
