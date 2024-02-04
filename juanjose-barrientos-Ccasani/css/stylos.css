@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.general{width: 70%;margin:0 auto;}
+.general .datos{display: block;padding-bottom: 20px;}
+.general .hobbi{display: block;padding-bottom: 20px;color: #0850af;}
+.content-img{display: flex;justify-content: center;}
+h1{text-align: center;color:crimson;padding: 20px 0;}
+.item{width: 50%;padding: 10px;}
+.item img{display: block;width: 100%;}
+footer{padding: 2em 0;text-align: center;margin-top:3em;background: #000;color: #fff;}
